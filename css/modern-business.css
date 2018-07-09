@@ -27,3 +27,9 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+.center-image {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}

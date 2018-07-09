@@ -31,8 +31,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+            <li id="AboutLink" class="nav-item">
+              <a class="nav-link">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
@@ -112,7 +112,7 @@
     <!-- Page Content -->
     <div class="container">
 
-      <h1 class="my-4">Welcome to Modern Business</h1>
+      <h1 class="my-4">TCN Products</h1>
 
       <!-- Marketing Icons Section -->
       <div class="row">
@@ -153,9 +153,9 @@
       <!-- /.row -->
 
       <!-- Portfolio Section -->
-      <h2>Portfolio Heading</h2>
+      <h2 id="About">About TCN Technologies</h2>
 
-      <div class="row">
+<!--       <div class="row">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
             <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
@@ -189,24 +189,15 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- /.row -->
 
       <!-- Features Section -->
       <div class="row">
         <div class="col-lg-6">
-          <h2>TCN Technologies</h2>
-          <p>The Modern Business template by Start Bootstrap includes:</p>
-          <ul>
-            <li>
-              <strong>Bootstrap v4</strong>
-            </li>
-            <li>jQuery</li>
-            <li>Font Awesome</li>
-            <li>Working contact form with validation</li>
-            <li>Unstyled page elements for easy customization</li>
-          </ul>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+          <p>Founded in 2002, <strong>TCN Technologies</strong> is a family owned business which capitalizes on 15 years of filtration technology development and operations.  Innovative product development and aggressive customer service have been the hallmark of the company.  The company’s functional and cost effective product line provides exceptional value to its customers.</p>
+          <p><strong>TCN’s</strong> products can be found in process filtration and waste treatment operations at customer sites in the US and abroad.  <strong>TCN</strong> manufactures its products at two facilities in the US which are strategically located to provide excellent transportation value.</p>
+          <p><strong>TCN’s</strong> client list is diverse and strong including, DuPont, Massachusetts General Hospital, Harley-Davison, Honeywell, Wahl Clippers, Dow, Kawasaki, Gilbarco-Veeder Root and many others.</p>
         </div>
         <div class="col-lg-6">
           <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
@@ -214,17 +205,29 @@
       </div>
       <!-- /.row -->
 
-      <hr>
-
-      <!-- Call to Action Section -->
-      <div class="row mb-4">
-        <div class="col-md-8">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+      <!-- Our Customers -->
+      <h2>Our Customers</h2>
+      <div class="row">
+        <div class="col-lg-2 col-sm-4 mb-4">
+          <span class="center-image"></span><img class="img-fluid" src="image/Dupont.png" alt="">
         </div>
-        <div class="col-md-4">
-          <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
+        <div class="col-lg-2 col-sm-4 mb-4">
+          <span class="center-image"></span><img class="img-fluid" src="image/Dow.gif" alt="">
+        </div>
+        <div class="col-lg-2 col-sm-4 mb-4">
+          <span class="center-image"></span><img class="img-fluid" src="image/Harley_davidson_logo.jpg" alt="">
+        </div>
+        <div class="col-lg-2 col-sm-4 mb-4">
+          <span class="center-image"></span><img class="img-fluid" src="image/Kawasaki logo.png" alt="">
+        </div>
+        <div class="col-lg-2 col-sm-4 mb-4">
+          <span class="center-image"></span><img class="img-fluid" src="image/Wahl-Logo.jpg" alt="">
+        </div>
+        <div class="col-lg-2 col-sm-4 mb-4">
+          <span class="center-image"></span><img class="img-fluid" src="image/honeywell_logo.png" alt="">
         </div>
       </div>
+      <!-- /.row -->
 
     </div>
     <!-- /.container -->
@@ -238,8 +241,12 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!--My attempt at JS-->
+    <script src="js/local.js"></script>
 
   </body>
 
