@@ -37,3 +37,16 @@ body {
   height: 100%;
   vertical-align: middle;
 }
+
+.btn-amazon {
+  background-color: #ff9900;
+  color: black;
+}
+
+.btn-amazon:hover {
+  background-color: #C67700
+}
+
+.customers {
+  max-width: 10%;
+}
